@@ -31,6 +31,20 @@ Building upon the V2 script, this version provides an improved user interface by
 1. Run the script: `python port_scanner_v2_updated.py`
 2. Enter the target IP address when prompted.
 
+## Port Scanner with Enhanced Reporting (Nmap Integration) PS_Nmap.py
+
+This Python script enhances port scanning capabilities by utilizing multithreading for parallel port scans. Additionally, it integrates Nmap to provide detailed information about the target host, including its operating system. The results are saved in a report file for further analysis.
+
+### Usage
+
+1. Run the script: `python port_scanner.py 192.168.0.1 --timeout 2 --threads 4`
+2. Replace `192.168.0.1` with the target IP address.
+3. Adjust `timeout` and `threads` values as needed.
+
+   
+
+Feel free to customize and contribute to this project!
+
 ---
 
 ### Additional Notes
