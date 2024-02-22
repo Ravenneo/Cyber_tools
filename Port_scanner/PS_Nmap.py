@@ -3,6 +3,7 @@ from concurrent.futures import ThreadPoolExecutor
 import time
 import nmap
 import sys
+import argparse
 
 def scan_port(ip, port, timeout):
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
