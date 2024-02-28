@@ -8,6 +8,7 @@ This repository contains a set of Python scripts for various cybersecurity tasks
 This script generates a random password based on user-defined criteria. It prompts the user for the desired password length and creates a strong password by combining letters (both uppercase and lowercase), digits, and special characters.
 
 ### Usage:
+
 ```python
 import string
 import random
@@ -19,6 +20,13 @@ caracteres = string.ascii_letters + string.digits + string.punctuation
 password = "".join(random.choice(caracteres) for i in range(longitud))
 
 print("the password is: " + password)
+```
+
+---
+<br>
+
+
+
 
 
 ## pycifrado.py
@@ -32,8 +40,8 @@ This Python script provides a basic encryption function. It takes a message and 
    ```bash
    python pycifrado.py
 
-####Script Details
-encrypt Function
+#### Script Details
+
 
 The encrypt function takes two parameters - **key** and **message**. It creates a ciphertext by iterating over the message and appending characters at specific intervals determined by the key.
 
